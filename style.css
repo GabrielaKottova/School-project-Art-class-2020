@@ -1,0 +1,149 @@
+
+.ctverecek1 {
+  width: 100%;
+  height: 180px;
+  background: #eaac8b;
+  transition: width 1.5s, background 1s;
+
+  text-align: center;
+  
+}
+
+
+.ctverecek1:hover, .ctverecek1:active {
+  width: 300px;
+  background: #f5cab3;
+  
+}
+
+
+
+.ctverecek2 {
+  width: 100%;
+  height: 180px;
+  background: #E56B6F;
+  transition: width 2s, background 1s;
+}
+
+
+
+.ctverecek2:hover, .ctverecek2:active {
+  width: 300px;
+  background: #e59799;
+}
+
+.ctverecek3 {
+  width: 100%;
+  height: 180px;
+  background: #B56576;
+  transition: width 2s, background 1s;
+}
+
+.ctverecek3:hover, .ctverecek3:active {
+  width: 300px;
+  background: #c08491;
+}
+
+.ctverecek3:click {
+  width: 300px;
+  
+}
+.ctverecek4 {
+  width: 100%;
+  height: 180px;
+  background: #6D597A;
+  transition: width 2s, background 1s;
+}
+
+.ctverecek4:hover, .ctverecek4:active {
+  width: 300px;
+  background: #877394;
+}
+
+.ctverecek4:click {
+  width: 300px;
+  
+}
+
+.ctverecek5 {
+  width: 100%;
+  height: 210px;
+  background: #355070;
+  transition: width 2s, background 1s;
+}
+
+
+.ctverecek5:hover, .ctverecek5:active {
+  width: 300px;
+  background: #526d90;
+}
+
+.ctverecek5:click {
+  width: 300px;
+}
+
+@media(min-width: 800px) { 
+
+  body {
+  
+    margin: 0;
+   
+    background-image: url(obrazky/pozadi6.png);
+    background-repeat: no-repeat;
+    background-color: #f3e1d5;
+   /* background-size: 1600px; */
+   background-size: 1600px;
+  
+   height: 800px;
+  
+  
+    
+  }
+  
+
+}
+
+@media(max-width: 800px) {
+  body {
+  
+    margin: 0;
+   
+    background-image: url(obrazky/pozadi6.png);
+    background-repeat: no-repeat;
+    background-color: #f3e1d5;
+   /* background-size: 1600px; */
+   background-size: 1000px;
+  
+   height: 500px;
+  
+  
+    
+  }
+  
+}
+
+
+img {
+  width: 160px;
+  margin-left: 50px;
+  margin-top: 10px;
+  float: left;
+  
+
+  transition: transform 2.5s;
+  
+}
+
+.uzky {
+  margin-top: 60px;
+}
+.kulaty {
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+
+img:hover {
+  transform: rotate(420deg);
+}
+
