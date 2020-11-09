@@ -103,7 +103,7 @@
 
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1300px) {
   body {
   
     margin: 0;
@@ -112,9 +112,9 @@
     background-repeat: no-repeat;
     background-color: #f3e1d5;
    /* background-size: 1600px; */
-   background-size: 1000px;
+   background-size: 600px;
   
-   height: 500px;
+   height: 300px;
   
   
     
